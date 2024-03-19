@@ -7,10 +7,11 @@ export default {
   theme: {
     extend: {
       height: {
-        '92vh': '92vh',
-        '8vh': '8vh',
+        '90vh': '90vh',
+        '10vh': '10vh',
         'line': '3px',
-        '94': '94%'
+        '94': '94%',
+        '1px': '3px'
       },
       boxShadow: {
         'header': '0 0 4px #ccc'
@@ -22,7 +23,12 @@ export default {
       },
       textColor: {
         'button': '#e0cd56'
+      },
+      minWidth: {
+        'links': '90%',
+
       }
+
 
     },
   },

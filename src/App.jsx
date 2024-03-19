@@ -3,7 +3,6 @@ import './App.css'
 import Header from './components/Header/Header';
 import Homepage from './components/HomePage/Homepage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import ImagePage from './components/ImagePage/ImagePage';
 import PrePage from './components/PrePage/PrePage';
 
 

@@ -21,6 +21,12 @@ body {
 
 
 
+
+}
+
+.bg-image {
+  background-image: url('/shkola.jpg');
+  background-size: cover;
 }
 
 .animation {
@@ -35,4 +41,65 @@ body {
   100% {
     transform: translateY(0);
   }
+}
+
+.menu-btn {
+  display: none;
+}
+
+.icons {
+  display: flex;
+}
+
+h3 {
+  font-size: 8px;
+}
+
+.min {
+  width: 60%;
+}
+
+
+@media (max-width: 1000px) {
+  a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  a {
+    display: none;
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  h3 {
+    font-size: 13px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 8px;
+  }
+
+  .min {
+    width: 10%;
+  }
+
+
+
+
+
+
+
+
+
 }

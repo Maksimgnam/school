@@ -8,47 +8,59 @@ import youtube from '../Images/youtube.png';
 
 const Header = () => {
     return (
-        <div className='h-8vh w-full shadow-header flex items-center justify-between '>
-            <div className='w-3/6  h-full flex items-center justify-around'>
-                <Logo />
-                <div className='w-5/6 h-11 rounded-3xl flex  items-center justify-between '>
-                    <Link>
-                        <p className='text-xl font-mono'>Про нас</p>
-                    </Link>
-                    <Link>
-                        <p className='text-xl font-mono'>Документи</p>
-                    </Link>
-                    <Link>
-                        <p className='text-xl font-mono'>Інформація</p>
-                    </Link>
-                    <Link>
-                        <p className='text-xl font-mono'>Навч-вих роботи</p>
-                    </Link>
-                    <div className='w-20  '>
+        <div className='w-full h-10vh flex items-center justify-center'>
+
+
+            <div className=' w-10/12 h-14 bg-white shadow-header flex items-center justify-between rounded-lg pl-2 header'>
+                <div className='min  h-full flex items-center '>
+                    <Logo />
+                    <div className='w-auto  min-w-links h-11 rounded-3xl flex  items-center justify-between relative left-4 '>
                         <Link>
-                            <p className='text-xl text-button font-mono '>Більше</p>
+                            <p className='text-xl text-black font-mono'>Про нас</p>
                         </Link>
-                        <div className='w-16 h-line bg-black rounded-lg'></div>
+                        <Link>
+                            <p className='text-xl text-black font-mono'>Документи</p>
+                        </Link>
+                        <Link>
+                            <p className='text-xl text-black font-mono'>Інформація</p>
+                        </Link>
+                        <Link>
+                            <p className='text-xl text-black font-mono'>Навч-вих роботи</p>
+                        </Link>
+                        <a className='w-20  '>
+                            <Link>
+                                <p className='text-xl text-button font-mono '>Більше</p>
+                            </Link>
+                            <div className='w-16 h-line bg-black rounded-lg'></div>
+                        </a>
+
                     </div>
 
                 </div>
 
-            </div>
+                <input type="text" placeholder='Пошук...' className='w-auto h-11 bg-white border-2  border-gray-200 rounded-xl outline-none pl-2' />
+                <div className='w-1/5 h-11 flex items-center justify-end pr-10 icons  '>
+                    <div className='w-10 h-10 flex items-center justify-center '>
+                        <img className='w-6 h-6' src={instagram} alt="" />
+                    </div>
+                    <div className='w-10 h-10  flex items-center justify-center'>
+                        <img className='w-6 h-6' src={facebook} alt="" />
+                    </div>
+                    <div className='w-10 h-10  flex items-center justify-center'>
+                        <img className='w-7 h-7' src={youtube} alt="" />
+                    </div>
 
-            <input type="text" placeholder='Пошук...' className='w-1/5 h-11 bg-white border-2  border-gray-200 rounded-xl outline-none pl-2' />
-            <div className='w-1/5 h-11 flex items-center justify-end pr-10 '>
-                <div className='w-10 h-10 flex items-center justify-center '>
-                    <img className='w-6 h-6' src={instagram} alt="" />
                 </div>
-                <div className='w-10 h-10  flex items-center justify-center'>
-                    <img className='w-6 h-6' src={facebook} alt="" />
-                </div>
-                <div className='w-10 h-10  flex items-center justify-center'>
-                    <img className='w-7 h-7' src={youtube} alt="" />
-                </div>
+                <button className='w-10 h-10 bg-black rounded-md flex  items-center justify-center menu-btn'>
+                    <div className='w-8 h-7 flex flex-col items-center justify-around'>
+                        <div className='w-9/12 h-1px bg-white rounded-xl'></div>
+                        <div className='w-9/12 h-1px bg-white rounded-xl'></div>
+                        <div className='w-9/12 h-1px bg-white rounded-xl'></div>
+                    </div>
 
-            </div>
-        </div >
+                </button>
+            </div >
+        </div>
     )
 }
 
