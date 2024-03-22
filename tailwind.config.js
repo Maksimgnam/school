@@ -11,7 +11,9 @@ export default {
         '10vh': '10vh',
         'line': '3px',
         '94': '94%',
-        '1px': '3px'
+        '1px': '3px',
+
+
       },
       boxShadow: {
         'header': '0 0 4px #ccc'
@@ -26,8 +28,19 @@ export default {
       },
       minWidth: {
         'links': '90%',
+        '70': '55%'
 
+      },
+      minHeight: {
+        '72vh': '82vh',
+        '89vh': '98vh',
+        '87vh': '87vh',
+        '62vh': '62vh',
+        '120vh': '120vh',
+        '292vh': '292vh'
       }
+
+
 
 
     },

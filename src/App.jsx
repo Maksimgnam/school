@@ -1,9 +1,9 @@
 
 import './App.css'
-import Header from './components/Header/Header';
 import Homepage from './components/HomePage/Homepage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import PrePage from './components/PrePage/PrePage';
+import NavigationPage from './components/NavigationPage/NavigationPage';
 
 
 function App() {
@@ -15,17 +15,10 @@ function App() {
         <Routes>
           <Route path='/' element={<PrePage />} />
           <Route path='/home' element={<Homepage />} />
+          <Route path='/navigation' element={<NavigationPage />} />
 
         </Routes>
       </div>
-
-
-
-
-
-
-
-
     </BrowserRouter >
 
   )
