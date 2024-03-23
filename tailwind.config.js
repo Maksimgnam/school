@@ -36,6 +36,7 @@ export default {
         '89vh': '98vh',
         '87vh': '87vh',
         '62vh': '62vh',
+        '100vh': '100vh',
         '120vh': '120vh',
         '292vh': '292vh'
       }

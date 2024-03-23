@@ -80,6 +80,7 @@ body {
 }
 
 @media (max-width: 1300px) {
+
   .a-link {
     font-size: 16px;
   }
@@ -125,6 +126,17 @@ body {
     text-align: center;
 
   }
+
+  .prepage-text {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .prepage-text-p {
+    font-size: 27px;
+    text-align: center;
+  }
+
 }
 
 @media (max-width: 1100px) {
@@ -136,6 +148,16 @@ body {
 
   .time-text {
     display: none;
+    text-align: center;
+  }
+
+  .prepage-text {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .prepage-text {
+    font-size: 36px;
     text-align: center;
   }
 
@@ -259,6 +281,22 @@ body {
 
   }
 
+  .prepage-text {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .prepage-text-p {
+    font-size: 27px;
+    text-align: center;
+  }
+
+
+  .prepage-li {
+    font-size: 23px;
+    text-align: center;
+  }
+
   .pdf {
     width: 100%;
   }
@@ -277,6 +315,7 @@ body {
   .a-header {
     display: none;
   }
+
 
   .a-table {
     display: flex;
@@ -320,8 +359,17 @@ body {
 
   }
 
+  .prepage-text-p {
+    font-size: 25px;
+    text-align: center;
+  }
+
   .pdf {
     width: 100%;
+  }
+
+  .navigation-header {
+    padding: 0;
   }
 
 
@@ -332,4 +380,11 @@ body {
 
 
 
+}
+
+@media (max-width: 375px) {
+  .navigation-header {
+    padding: 0;
+    width: 100%;
+  }
 }
