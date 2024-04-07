@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    <BrowserRouter basename="https://school-shklo.vercel.app/">
+    <BrowserRouter >
       <div className='app'>
 
         <Routes>
