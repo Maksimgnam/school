@@ -1,9 +1,12 @@
 import React from 'react';
 import { useEffect } from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css'
+import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
 import Timetable from '../Timetable/Timetable';
+import News from '../News/News';
+import Contacts from '../Contacts/Contacts';
 
 
 const Homepage = () => {
@@ -19,14 +22,16 @@ const Homepage = () => {
                     <div className='w-full h-auto min-h-72 flex flex-col items-center justify-between'>
                         <h3 className='text-white text-7xl font-medium homepage-text'>Шклівський ЗЗСО І-ІІІ ступенів </h3>
                         <p className='text-yellow-400 text-7xl font-medium homepage-text-p'>ім. Мар'яна Корчака</p>
-                        <a href="#timetable">
+                        <Link to='/news'>
                             <button className='animation w-64 h-16 text-xl font-medium  bg-button rounded-full'>Дізнатися більше</button>
-                        </a>
+                        </Link>
                     </div>
 
 
                 </div>
             </div>
+            <News />
+            <Contacts />
             <Timetable />
 
         </div >

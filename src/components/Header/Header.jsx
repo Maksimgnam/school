@@ -6,16 +6,17 @@ import facebook from '../Images/facebook.png';
 import youtube from '../Images/youtube.png';
 
 
+
 const Header = () => {
     return (
         <div className='w-full h-10vh flex items-center justify-center '>
 
 
-            <div className='w-10/12 h-14 bg-white shadow-header flex items-center justify-between rounded-lg pl-2 header'>
+            <div className='w-10/12 h-14 bg-white shadow-header flex items-center justify-between rounded-lg pl-2 header p-3'>
                 <Logo />
                 <div className='min  h-full flex items-center '>
 
-                    <div className='w-auto  min-w-links h-11 rounded-3xl flex  items-center justify-between relative left-4 a-header '>
+                    <div className='w-auto  min-w-links h-11 rounded-3xl flex  items-center justify-between  a-header '>
                         <Link>
                             <p className='text-xl text-black font-mono a-link'>Про нас</p>
                         </Link>
@@ -38,8 +39,8 @@ const Header = () => {
                     </div>
 
                 </div>
-                <input type="text" placeholder='Пошук...' className='w-auto h-11 bg-white border-2  border-gray-200 rounded-xl outline-none pl-2 header-input' />
-                <div className='w-1/5 h-11 flex items-center justify-end pr-10 icons  '>
+                <input type="text" placeholder='Пошук...' className='w-auto h-10 bg-white border-2  border-gray-200 rounded-md outline-none pl-2 header-input' />
+                {/* <div className='w-1/5 h-11 flex items-center justify-end pr-10 icons  '>
                     <div className='w-10 h-10 flex items-center justify-center '>
                         <img className='w-6 h-6' src={instagram} alt="" />
                     </div>
@@ -50,7 +51,13 @@ const Header = () => {
                         <img className='w-7 h-7' src={youtube} alt="" />
                     </div>
 
-                </div>
+                </div> */}
+                <Link to='/enroll-child-in-1-grade'>
+                    <button className='w-28 h-10 bg-black rounded-md flex  items-center justify-center enroll-button ml-1'>
+                        <p className='text-lg text-white font-mono'>Записати</p>
+
+                    </button>
+                </Link>
                 <Link to='/navigation'>
                     <button className='w-10 h-10 bg-black rounded-md flex  items-center justify-center menu-btn'>
                         <div className='w-8 h-7 flex flex-col items-center justify-around'>
@@ -61,6 +68,7 @@ const Header = () => {
 
                     </button>
                 </Link>
+
             </div >
         </div>
     )

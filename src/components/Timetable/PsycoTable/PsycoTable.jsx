@@ -58,8 +58,8 @@ const PsycoTable = () => {
     return (
         <div className='w-full h-auto min-h-87vh  flex items-center justify-center '>
             <div className='w-9/12  h-auto min-h-87vh flex  flex-col items-center justify-around '>
-                <h3 className='text-lg font-mono'>Графік роботи практичного психолога Сенюти Мирослави Миколаївни</h3>
-                <table className='w-3/5 h-44'>
+                <h3 className='text-lg font-mono table-text'>Графік роботи практичного психолога Сенюти Мирослави Миколаївни</h3>
+                <table className='w-3/5 h-44 table-width'>
                     <thead>
                         <tr className='h-10 w-full'>
                             <th className='h-10 border-2 border-bg-gray-200'>Дні тижня</th>
@@ -75,8 +75,8 @@ const PsycoTable = () => {
                         ))}
                     </tbody>
                 </table>
-                <h3 className='text-lg font-mono'>Графік роботи соціального педагога Курчик Іванни Василівни</h3>
-                <table className='w-3/5 h-44 '>
+                <h3 className='text-lg font-mono table-text'>Графік роботи соціального педагога Курчик Іванни Василівни</h3>
+                <table className='w-3/5 h-44  table-width'>
 
                     <thead >
                         <tr className='h-10 w-full'>
