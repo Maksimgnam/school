@@ -46,7 +46,7 @@ const News = () => {
                             <div key={item.id} className='w-auto min-w-news-card   max-w-news-card h-auto min-h-80 bg-gray-100 rounded-lg flex flex-wrap justify-around  items-center m-4 ml-0 mr-0 p-1 '>
 
                                 <div className='w-80 h-72  news-card-image '>
-                                    <img className="w-full h-full bg-cover rounded  " src={item.image} alt="" />
+                                    <img className="w-full h-full bg-cover rounded  " src={item.image} />
                                 </div>
                                 <div className='w-auto min-h-72  max-w-news-card-text  flex flex-col justify-between  '>
                                     <div>
@@ -79,6 +79,10 @@ const News = () => {
 }
 
 export default News
+
+
+
+
 
 
 
