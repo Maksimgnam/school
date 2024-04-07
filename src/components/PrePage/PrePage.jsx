@@ -86,7 +86,7 @@ const PrePage = () => {
 
                 <div data-aos="fade-up" className='w-4/6 h-line bg-black rounded-md'></div>
                 <div className='w-64 h-16 flex items-center '>
-                    <Link to="/home">
+                    <Link to="home">
                         <button className=' animation w-64 h-16 text-2xl text-button  font-mono bg-black rounded-md flex items-center justify-center'>Переглянути</button>
                     </Link>
                 </div>
