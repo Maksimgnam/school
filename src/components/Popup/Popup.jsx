@@ -57,16 +57,16 @@ const Popup = () => {
                     <div className='w-popup h-popup bg-white  rounded-md flex flex-col justify-around  p-4'>
 
                         <div className='w-auto h-10'>
-                            <div className=' text-xl font-mono flex'>Добрий день
+                            <div className=' text-xl text-black font-mono flex'>Добрий день
                                 <img className='w-6 h-6 relative left-2' src={hi} alt="" />
                             </div>
-                            <h2 className='text-3xl font-medium'>Записати Дитину</h2>
+                            <h2 className='text-3xl text-black font-medium'>Записати Дитину</h2>
                         </div>
                         <div className='w-full h-3/5 flex flex-col justify-between'>
-                            <p className='text-lg font-mono pt-1'>Як вас звати</p>
+                            <p className='text-lg text-black font-mono pt-1'>Як вас звати</p>
 
-                            <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder='Михайло Федоров' className='w-full h-12 border border-b-gray-200 placeholder:text-gray-600 placeholder:text-lg placeholder:font-mono rounded-md outline-none m-1 ml-0 pl-2' />
-                            <p className='text-lg font-mono pt-1'>Телефон</p>
+                            <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder='Михайло Федоров' className='w-full h-12 bg-white border border-b-gray-200 text-black placeholder:text-gray-600 placeholder:text-lg placeholder:font-mono rounded-md outline-none m-1 ml-0 pl-2' />
+                            <p className='text-lg  text-black font-mono pt-1'>Телефон</p>
                             <div className='w-full h-auto flex '>
                                 <div className='w-auto h-12 flex items-center pt-1'>
                                     <img className='w-9 h-9' src={ua} alt="" />
@@ -78,10 +78,10 @@ const Popup = () => {
                                         e.target.value = e.target.value.slice(0, 9);
                                     }
                                     setPhoneNumber(e.target.value);
-                                }} placeholder="(99) 999-99-99" className='w-4/6 h-12 text-lg text-gray-600 font-mono  placeholder:text-gray-600 placeholder:text-lg placeholder:font-mono rounded-md outline-none pl-1 pt-1' min="9" />
+                                }} placeholder="(99) 999-99-99" className='w-4/6 bg-white h-12 text-lg text-gray-600 font-mono  placeholder:text-gray-600 placeholder:text-lg placeholder:font-mono rounded-md outline-none pl-1 pt-1' min="9" />
                             </div>
-                            <p className='text-lg font-mono pt-1'>Дата народження дитини</p>
-                            <input type="date" value={birthDate} onChange={(e) => setBirthDate(e.target.value)} className='w-full h-12 border border-b-gray-200 placeholder:text-gray-600 placeholder:text-lg placeholder:font-mono rounded-md outline-none pl-2' />
+                            <p className='text-lg text-black font-mono pt-1'>Дата народження дитини</p>
+                            <input type="date" value={birthDate} onChange={(e) => setBirthDate(e.target.value)} className='w-full h-12  bg-white text-black border border-b-gray-200 placeholder:text-gray-600 placeholder:text-lg placeholder:font-mono rounded-md outline-none pl-2' />
                         </div>
 
                         <button onClick={Submit} className='w-full h-14 bg-black rounded-md'>

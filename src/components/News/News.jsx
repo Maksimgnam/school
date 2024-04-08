@@ -52,14 +52,14 @@ const News = () => {
                                     <div>
 
 
-                                        <p>{item.catagory}</p>
-                                        <h2 className='text-3xl'>{item.title}</h2>
+                                        <p className='text-black'>{item.catagory}</p>
+                                        <h2 className='text-3xl text-black '>{item.title}</h2>
                                         <div className='p-10 pl-0 pt-2'>
-                                            <p className='text-xl'>{item.description}</p>
+                                            <p className='text-xl text-black'>{item.description}</p>
                                         </div>
                                     </div>
                                     <div className='w-full h-10 flex items-center justify-end pr-8'>
-                                        <p className='text-lg font-medium'>{item.date}</p>
+                                        <p className='text-lg text-black font-medium'>{item.date}</p>
                                     </div>
                                 </div>
 

@@ -7,15 +7,15 @@ import instagram from '../Images/insta.png'
 const Contacts = () => {
     return (
         <div className='w-full h-auto min-h-contacts flex flex-col  items-center '>
-            <h2 className='text-2xl font-mono'>КОНТАКТИ</h2>
+            <h2 className='text-2xl text-black  font-mono'>КОНТАКТИ</h2>
             <div className='w-auto h-auto  min-h-contacts  flex flex-wrap justify-center   m-2 p-4'>
                 <div className='w-auto h-auto   flex flex-col    m-7 mt-0'>
-                    <h2 className='text-2xl font-medium'>
+                    <h2 className='text-2xl text-black  font-medium'>
                         Шклівський ЗЗСО І-ІІІ ступенів ім. Мар'яна Корчака
                     </h2>
                     <div className='w-full h-auto min-h-52 flex flex-col justify-around'>
 
-                        <p className='text-xl font-mono'>81050 смт. Шкло вулиця Т.Шеченка 1
+                        <p className='text-xl text-black  font-mono'>81050 смт. Шкло вулиця Т.Шеченка 1
                             <br />
                             Яворіського району Львівської області</p>
                         <div className='w-auto h-auto flex flex-wrap'>
@@ -23,14 +23,14 @@ const Contacts = () => {
                                 <div className='w-10 h-10 bg-slate-100 rounded-md flex items-center justify-center contact-image-block'>
                                     <img className="w-5 h-5" src={phone} alt="" />
                                 </div>
-                                <p className='text-xl font-mono relative left-1'>032-595-0548</p>
+                                <p className='text-xl text-black  font-mono relative left-1'>032-595-0548</p>
                             </div>
                             <a href="https://www.instagram.com/school_shklo">
                                 <div className='flex items-center relative left-5 '>
                                     <div className='w-10 h-10 bg-slate-100 rounded-md flex items-center justify-center contact-image-block'>
                                         <img className="w-5 h-5" src={instagram} alt="" />
                                     </div>
-                                    <p className='text-xl font-mono relative left-1'>Instagram</p>
+                                    <p className='text-xl text-black  font-mono relative left-1'>Instagram</p>
                                 </div>
                             </a>
 
@@ -42,14 +42,14 @@ const Contacts = () => {
                                 <div className='w-10 h-10 bg-slate-100 rounded-md flex items-center justify-center contact-image-block'>
                                     <img className="w-5 h-5" src={email} alt="" />
                                 </div>
-                                <p className='text-xl font-mono relative left-1'>   shkolashklo@gmail.com</p>
+                                <p className='text-xl text-black  font-mono relative left-1'>   shkolashklo@gmail.com</p>
                             </div>
                             <a href="https://www.facebook.com/ShkolaShklo">
                                 <div className='flex items-center relative left-5 facebook-link'>
                                     <div className='w-10 h-10 bg-slate-100 rounded-md flex items-center justify-center contact-image-block'>
                                         <img className="w-5 h-5" src={facebook} alt="" />
                                     </div>
-                                    <p className='text-xl font-mono relative left-1'>facebook</p>
+                                    <p className='text-xl text-black font-mono relative left-1'>facebook</p>
                                 </div>
                             </a>
 
