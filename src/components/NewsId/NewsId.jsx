@@ -19,9 +19,9 @@ const NewsId = () => {
                 <div className='w-11/12 h-auto pt-4'>
 
 
-                    <p className='text-black'>{news.catagory}</p>
-                    <h2 className='text-3xl text-black'>{news.title}</h2>
-                    <p className='text-lg pt-2 text-black'>{news.allDescription}</p>
+                    <p >{news.catagory}</p>
+                    <h2 className='text-3xl'>{news.title}</h2>
+                    <p className='text-lg pt-2 '>{news.allDescription}</p>
                 </div>
             </div>
 
