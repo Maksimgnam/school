@@ -28,21 +28,21 @@ const LessonsTimeTable = () => {
     ]
     return (
         <div className='w-full min-h-62vh  flex flex-col items-center justify-around'>
-            <h2 className='text-xl font-medium table-text '>Розклад дзвінків Шклівського ЗЗСО І-ІІІ ступенів імені Мар’яна Корчака</h2>
+            <h2 className='text-xl font-medium table-text  text-black'>Розклад дзвінків Шклівського ЗЗСО І-ІІІ ступенів імені Мар’яна Корчака</h2>
             <div className='w-10/12 h-full flex flex-wrap  justify-center  '>
                 <div className='w-96 h-auto m-3 '>
                     <div className='w-full h-10 flex items-center justify-center'>
-                        <h3 className='text-xl font-mono'>1 класи</h3>
+                        <h3 className='text-xl font-mono text-black'>1 класи</h3>
                     </div>
                     <table className='w-full h-44'>
 
                         <tbody className='w-full h-10  text-center '>
                             {lessonTable1.map(schedule => (
                                 <tr key={schedule.day}>
-                                    <td className='h-10 border-2 border-bg-gray-200'>{schedule.lesson}</td>
-                                    <td className='h-10 border-2 border-bg-gray-200'>{schedule.startTime}</td>
-                                    <td className='h-10 border-2 border-bg-gray-200'>{schedule.endTime}</td>
-                                    <td className='h-10 border-2 border-bg-gray-200'>{schedule.duration}</td>
+                                    <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.lesson}</td>
+                                    <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.startTime}</td>
+                                    <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.endTime}</td>
+                                    <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.duration}</td>
                                 </tr>
                             ))}
                         </tbody>
@@ -50,17 +50,17 @@ const LessonsTimeTable = () => {
                 </div>
                 <div className='w-96 h-auto m-3'>
                     <div className='w-full h-10 flex items-center justify-center'>
-                        <h3 className='text-xl font-mono'>     2-4 класи</h3>
+                        <h3 className='text-xl font-mono text-black'>     2-4 класи</h3>
                     </div>
                     <table className='w-full h-auto'>
 
                         <tbody className='w-full h-10  text-center '>
                             {lessonTable2.map(schedule => (
                                 <tr key={schedule.day}>
-                                    <td className='h-10 border-2 border-bg-gray-200'>{schedule.lesson}</td>
-                                    <td className='h-10 border-2 border-bg-gray-200'>{schedule.startTime}</td>
-                                    <td className='h-10 border-2 border-bg-gray-200'>{schedule.endTime}</td>
-                                    <td className='h-10 border-2 border-bg-gray-200'>{schedule.duration}</td>
+                                    <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.lesson}</td>
+                                    <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.startTime}</td>
+                                    <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.endTime}</td>
+                                    <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.duration}</td>
                                 </tr>
                             ))}
                         </tbody>
@@ -68,17 +68,17 @@ const LessonsTimeTable = () => {
                 </div>
                 <div className='w-96 h-auto m-3'>
                     <div className='w-full h-10 flex items-center justify-center'>
-                        <h3 className='text-xl font-mono'>     5-11 класи</h3>
+                        <h3 className='text-xl font-mono text-black'>     5-11 класи</h3>
                     </div>
                     <table className='w-full h-44'>
 
                         <tbody className='w-full h-10  text-center '>
                             {lessonTable3.map(schedule => (
                                 <tr key={schedule.day}>
-                                    <td className='h-10 border-2 border-bg-gray-200'>{schedule.lesson}</td>
-                                    <td className='h-10 border-2 border-bg-gray-200'>{schedule.startTime}</td>
-                                    <td className='h-10 border-2 border-bg-gray-200'>{schedule.endTime}</td>
-                                    <td className='h-10 border-2 border-bg-gray-200'>{schedule.duration}</td>
+                                    <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.lesson}</td>
+                                    <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.startTime}</td>
+                                    <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.endTime}</td>
+                                    <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.duration}</td>
                                 </tr>
                             ))}
                         </tbody>

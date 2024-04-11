@@ -7,9 +7,9 @@ const GradesTable = () => {
 
     return (
         <div className='w-full h-auto min-h-292vh flex flex-col items-center justify-around'>
-            <p className='text-lg font-mono table-text'>Розклад уроків для 1-4 класів на IІ семестр 2023-2024 н.р</p>
+            <p className='text-lg font-mono table-text text-black'>Розклад уроків для 1-4 класів на IІ семестр 2023-2024 н.р</p>
             <iframe src={firstFifth} width={700} height={1000} className='pdf' ></iframe>
-            <p className='text-lg font-mono table-text'>Розклад уроків для 5-11 класів на IІ семестр 2023-2024 н.р</p>
+            <p className='text-lg font-mono table-text text-black'>Розклад уроків для 5-11 класів на IІ семестр 2023-2024 н.р</p>
             <iframe src={fiveEleventh} width={700} height={1000} className='pdf' ></iframe>
 
         </div>

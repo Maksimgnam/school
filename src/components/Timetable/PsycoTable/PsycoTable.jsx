@@ -58,25 +58,25 @@ const PsycoTable = () => {
     return (
         <div className='w-full h-auto min-h-87vh  flex items-center justify-center '>
             <div className='w-9/12  h-auto min-h-87vh flex  flex-col items-center justify-around '>
-                <h3 className='text-lg font-mono table-text'>Графік роботи практичного психолога Сенюти Мирослави Миколаївни</h3>
+                <h3 className='text-lg font-mono table-text text-black'>Графік роботи практичного психолога Сенюти Мирослави Миколаївни</h3>
                 <table className='w-3/5 h-44 table-width'>
                     <thead>
                         <tr className='h-10 w-full'>
-                            <th className='h-10 border-2 border-bg-gray-200'>Дні тижня</th>
-                            <th className='h-10 border-2 border-bg-gray-200'>Інтервали робочого часу</th>
+                            <th className='h-10 border-2 border-bg-gray-200 text-black'>Дні тижня</th>
+                            <th className='h-10 border-2 border-bg-gray-200 text-black'>Інтервали робочого часу</th>
                         </tr>
                     </thead>
                     <tbody className='w-full h-10  text-center '>
                         {psycoTable.map(schedule => (
                             <tr key={schedule.day}>
-                                <td className='h-10 border-2 border-bg-gray-200'>{schedule.day}</td>
-                                <td className='h-10 border-2 border-bg-gray-200'>{schedule.work_schedule}</td>
+                                <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.day}</td>
+                                <td className='h-10 border-2 border-bg-gray-200 text-black'>{schedule.work_schedule}</td>
                             </tr>
                         ))}
                     </tbody>
                 </table>
-                <h3 className='text-lg font-mono table-text'>Графік роботи соціального педагога Курчик Іванни Василівни</h3>
-                <table className='w-3/5 h-44  table-width'>
+                <h3 className='text-lg font-mono table-text text-black'>Графік роботи соціального педагога Курчик Іванни Василівни</h3>
+                <table className='w-3/5 h-44  table-width text-black'>
 
                     <thead >
                         <tr className='h-10 w-full'>

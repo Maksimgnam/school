@@ -70,53 +70,53 @@ const ClubsTable = () => {
     return (
         <div className='w-full h-auto min-h-120vh  flex flex-col items-center '>
             <div className='w-full h-14 flex justify-center '>
-                <p className='text-xl font-mono table-text'>Графік роботи гуртків на І семестр 2023-2024 н.р.</p>
+                <p className='text-xl font-mono table-text text-black'>Графік роботи гуртків на І семестр 2023-2024 н.р.</p>
             </div>
             <table className='w-4/6  '>
 
                 <thead className='h-20'>
                     <tr >
-                        <th className='h-10 border-2 border-bg-gray-200'>№ п/п</th>
-                        <th className='h-10 border-2 border-bg-gray-200'>Назва гуртка</th>
-                        <th className='h-10 border-2 border-bg-gray-200'>Дні занять</th>
-                        <th className='h-10 border-2 border-bg-gray-200'>Години</th>
-                        <th className='h-10 border-2 border-bg-gray-200'>Керівник гуртка</th>
+                        <th className='h-10 border-2 border-bg-gray-200 text-black'>№ п/п</th>
+                        <th className='h-10 border-2 border-bg-gray-200 text-black'>Назва гуртка</th>
+                        <th className='h-10 border-2 border-bg-gray-200 text-black'>Дні занять</th>
+                        <th className='h-10 border-2 border-bg-gray-200 text-black'>Години</th>
+                        <th className='h-10 border-2 border-bg-gray-200 text-black'>Керівник гуртка</th>
                     </tr>
                 </thead>
 
                 <tbody >
                     {clubsTable.map((club, index) => (
                         <tr className='w-3/6 h-24 border-2 border-bg-gray-200 ' key={index}>
-                            <td className=' border-2 border-bg-gray-200 ' >{club["№ п/п"]}</td>
-                            <td className='border-2 border-bg-gray-200'>{club.name}</td>
-                            <td className='h-24 border-2 border-bg-gray-200 p-2'>{club.days}</td>
-                            <td className='h-24 border-bg-gray-200 flex items-center justify-center'>{club.hours}</td>
-                            <td className='border-2 '>{club.leader}</td>
+                            <td className=' border-2 border-bg-gray-200  text-black' >{club["№ п/п"]}</td>
+                            <td className='border-2 border-bg-gray-200 text-black'>{club.name}</td>
+                            <td className='h-24 border-2 border-bg-gray-200 text-black p-2'>{club.days}</td>
+                            <td className='h-24 border-bg-gray-200 text-black flex items-center justify-center'>{club.hours}</td>
+                            <td className='border-2 text-black '>{club.leader}</td>
                         </tr>
                     ))}
                 </tbody>
             </table>
             <div className='w-full h-20 flex justify-center items-center'>
-                <a className='text-xl font-mono pt-2'>Графік роботи гуртків на ІI семестр 2023-2024 н.р.</a>
+                <a className='text-xl font-mono pt-2 text-black'>Графік роботи гуртків на ІI семестр 2023-2024 н.р.</a>
             </div>
             <table className='w-4/6  '>
                 <thead className='h-20'>
                     <tr >
-                        <th className='h-10 border-2 border-bg-gray-200'>№ п/п</th>
-                        <th className='h-10 border-2 border-bg-gray-200'>Назва гуртка</th>
-                        <th className='h-10 border-2 border-bg-gray-200'>Дні занять</th>
-                        <th className='h-10 border-2 border-bg-gray-200'>Години</th>
-                        <th className='h-10 border-2 border-bg-gray-200'>Керівник гуртка</th>
+                        <th className='h-10 border-2 border-bg-gray-200 text-black'>№ п/п</th>
+                        <th className='h-10 border-2 border-bg-gray-200 text-black'>Назва гуртка</th>
+                        <th className='h-10 border-2 border-bg-gray-200 text-black'>Дні занять</th>
+                        <th className='h-10 border-2 border-bg-gray-200 text-black'>Години</th>
+                        <th className='h-10 border-2 border-bg-gray-200 text-black'>Керівник гуртка</th>
                     </tr>
                 </thead>
                 <tbody >
                     {clubsTable.map((club, index) => (
-                        <tr className='w-3/6 h-24 border-2 border-bg-gray-200 ' key={index}>
-                            <td className=' border-2 border-bg-gray-200 ' >{club["№ п/п"]}</td>
-                            <td className='border-2 border-bg-gray-200'>{club.name}</td>
-                            <td className='h-24 border-2 border-bg-gray-200 p-2'>{club.days}</td>
-                            <td className='h-24 border-bg-gray-200 flex items-center justify-center'>{club.hours}</td>
-                            <td className='border-2 '>{club.leader}</td>
+                        <tr className='w-3/6 h-24 border-2 border-bg-gray-200 text-black ' key={index}>
+                            <td className=' border-2 border-bg-gray-200  text-black' >{club["№ п/п"]}</td>
+                            <td className='border-2 border-bg-gray-200 text-black'>{club.name}</td>
+                            <td className='h-24 border-2 border-bg-gray-200 text-black p-2'>{club.days}</td>
+                            <td className='h-24 border-bg-gray-200 text-black flex items-center justify-center'>{club.hours}</td>
+                            <td className='border-2 text-black '>{club.leader}</td>
                         </tr>
                     ))}
                 </tbody>

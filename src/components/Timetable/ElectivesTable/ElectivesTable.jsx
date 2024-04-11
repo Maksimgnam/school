@@ -21,13 +21,13 @@ const ElectivesTable = () => {
                 <thead className='h-20'>
 
                     <tr>
-                        <th className=' border-2 border-bg-gray-200'>№</th>
-                        <th className=' border-2 border-bg-gray-200'>Вчитель</th>
-                        <th className=' border-2 border-bg-gray-200'>Понеділок</th>
-                        <th className=' border-2 border-bg-gray-200'>Вівторок</th>
-                        <th className=' border-2 border-bg-gray-200'>Середа</th>
-                        <th className=' border-2 border-bg-gray-200'>Четвер</th>
-                        <th className=' border-2 border-bg-gray-200'>П'ятниця</th>
+                        <th className=' border-2 border-bg-gray-200 text-black '>№</th>
+                        <th className=' border-2 border-bg-gray-200 text-black '>Вчитель</th>
+                        <th className=' border-2 border-bg-gray-200 text-black '>Понеділок</th>
+                        <th className=' border-2 border-bg-gray-200 text-black '>Вівторок</th>
+                        <th className=' border-2 border-bg-gray-200 text-black '>Середа</th>
+                        <th className=' border-2 border-bg-gray-200 text-black '>Четвер</th>
+                        <th className=' border-2 border-bg-gray-200 text-black '>П'ятниця</th>
                     </tr>
 
 
@@ -41,13 +41,13 @@ const ElectivesTable = () => {
                     {
                         electivesTable[0].teachers.map((teacher, index) => (
                             <tr className='h-24 text-center' key={index}>
-                                <td className='border-2 border-bg-gray-200'>{index + 1}</td>
-                                <td className='border-2 border-bg-gray-200'>{teacher}</td>
-                                <td className='border-2 border-bg-gray-200'>{electivesTable[0].schedule["понеділок"]}</td>
-                                <td className='border-2 border-bg-gray-200'>{electivesTable[0].schedule["вівторок"]}</td>
-                                <td className='border-2 border-bg-gray-200'>{electivesTable[0].schedule["середа"].join(", ")}</td>
-                                <td className='border-2 border-bg-gray-200'>{electivesTable[0].schedule["четвер"].join(", ")}</td>
-                                <td className='border-2 border-bg-gray-200'>{electivesTable[0].schedule["п’ятниця"].join(", ")}</td>
+                                <td className='border-2 border-bg-gray-200 text-black '>{index + 1}</td>
+                                <td className='border-2 border-bg-gray-200 text-black '>{teacher}</td>
+                                <td className='border-2 border-bg-gray-200 text-black '>{electivesTable[0].schedule["понеділок"]}</td>
+                                <td className='border-2 border-bg-gray-200 text-black '>{electivesTable[0].schedule["вівторок"]}</td>
+                                <td className='border-2 border-bg-gray-200 text-black '>{electivesTable[0].schedule["середа"].join(", ")}</td>
+                                <td className='border-2 border-bg-gray-200 text-black '>{electivesTable[0].schedule["четвер"].join(", ")}</td>
+                                <td className='border-2 border-bg-gray-200 text-black '>{electivesTable[0].schedule["п’ятниця"].join(", ")}</td>
                             </tr>
                         ))
                     }
