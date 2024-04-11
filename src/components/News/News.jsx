@@ -22,8 +22,8 @@ const News = () => {
     }
 
     return (
-        <div className='w-full h-auto min-h-news flex flex-col  items-center p-5'>
-            <div className='w-news-header h-12 flex items-center justify-between'>
+        <div className='w-full h-auto min-h-news bg-white flex flex-col  items-center p-5'>
+            <div className='w-news-header h-12 flex items-center justify-between '>
                 <p className='text-3xl font-mono '>НОВИНИ</p>
                 <Stack spacing={2} className="w-auto h-9    rounded-md flex items-center justify-center ">
                     <Pagination
@@ -43,22 +43,20 @@ const News = () => {
 
 
 
-                            <div key={item.id} className='w-auto min-w-news-card   max-w-news-card h-auto min-h-80 bg-gray-100 rounded-lg flex flex-wrap justify-around  items-center m-4 ml-0 mr-0 p-1 '>
+                            <div key={item.id} className='w-auto min-w-news-card   max-w-news-card h-auto min-h-72 bg-gray-100 rounded-lg flex flex-wrap justify-around  items-center m-4 ml-0 mr-0 p-1 '>
 
-                                <div className='w-80 h-72  news-card-image '>
-                                    <img className="w-full h-full bg-cover rounded  " src={item.image} />
-                                </div>
-                                <div className='w-auto min-h-72  max-w-news-card-text  flex flex-col justify-between  '>
-                                    <div>
+                                <div style={{ backgroundImage: `url(${item.image})` }} className='w-80 h-64  news-card-image  bg-cover '></div>
+                                <div className='w-auto min-h-64 h-auto max-w-news-card-text  flex flex-col  justify-between '>
+                                    <div className=' '>
 
 
                                         <p className='text-black'>{item.catagory}</p>
                                         <h2 className='text-3xl text-black '>{item.title}</h2>
                                         <div className='p-10 pl-0 pt-2'>
-                                            <p className='text-xl text-black'>{item.description}</p>
+                                            <p className='text-lg text-black'>{item.description}</p>
                                         </div>
                                     </div>
-                                    <div className='w-full h-10 flex items-center justify-end pr-8'>
+                                    <div className='w-full h-1 flex items-center justify-end pr-8 pb-5'>
                                         <p className='text-lg text-black font-medium'>{item.date}</p>
                                     </div>
                                 </div>

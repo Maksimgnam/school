@@ -28,7 +28,7 @@ const LessonsTimeTable = () => {
     ]
     return (
         <div className='w-full min-h-62vh  flex flex-col items-center justify-around'>
-            <h2 className='text-xl font-medium lessonsTime-text '>Розклад дзвінків Шклівського ЗЗСО І-ІІІ ступенів імені Мар’яна Корчака</h2>
+            <h2 className='text-xl font-medium table-text '>Розклад дзвінків Шклівського ЗЗСО І-ІІІ ступенів імені Мар’яна Корчака</h2>
             <div className='w-10/12 h-full flex flex-wrap  justify-center  '>
                 <div className='w-96 h-auto m-3 '>
                     <div className='w-full h-10 flex items-center justify-center'>

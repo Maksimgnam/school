@@ -70,7 +70,7 @@ const ClubsTable = () => {
     return (
         <div className='w-full h-auto min-h-120vh  flex flex-col items-center '>
             <div className='w-full h-14 flex justify-center '>
-                <p className='text-xl font-mono'>Графік роботи гуртків на І семестр 2023-2024 н.р.</p>
+                <p className='text-xl font-mono table-text'>Графік роботи гуртків на І семестр 2023-2024 н.р.</p>
             </div>
             <table className='w-4/6  '>
 

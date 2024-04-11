@@ -5,12 +5,15 @@ import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com'
 import CongratsPopup from './CongratsPopup/CongratsPopup';
 import FailPopup from './FailPopup/FailPopup';
+import EmptyPopup from './EmptyPopup/EmptyPopup';
 const Popup = () => {
     const [name, setName] = useState('');
     const [phoneNumber, setPhoneNumber] = useState('');
     const [birthDate, setBirthDate] = useState('');
     const [isCongrats, setIsCongrats] = useState(false);
     const [isFail, setIsFail] = useState(false);
+    const [isEmpty, setIsEmpty] = useState(false);
+
 
     const serviceId = 'service_u04wvol';
     const templateId = 'template_cn1byg8';
@@ -18,29 +21,40 @@ const Popup = () => {
     const Submit = (e) => {
         e.preventDefault();
 
+        if (!name || !phoneNumber || !birthDate) {
+            setIsEmpty(true)
+            return;
+        } else {
+            emailjs.send(serviceId, templateId, {
+                name,
+                phoneNumber,
+                birthDate
+            }, userId).then((response) => {
+                setIsCongrats(true)
 
-        emailjs.send(serviceId, templateId, {
-            name,
-            phoneNumber,
-            birthDate
-        }, userId).then((response) => {
-            setIsCongrats(true)
+            })
+                .catch((error) => {
+                    console.error('Email sending failed:', error);
+                    setIsFail(true)
+                });
 
-        })
-            .catch((error) => {
-                console.error('Email sending failed:', error);
-                setIsFail(true)
-            });
+            setName('');
+            setPhoneNumber('');
+            setBirthDate('')
 
-        setName('');
-        setPhoneNumber('');
-        setBirthDate('')
+        }
 
 
 
 
 
 
+
+
+
+    }
+    const closeEmpty = () => {
+        setIsEmpty(false)
     }
     return (
         <>
@@ -100,6 +114,11 @@ const Popup = () => {
             {
                 isFail && (
                     <FailPopup />
+                )
+            }
+            {
+                isEmpty && (
+                    <EmptyPopup closeEmpty={closeEmpty} />
                 )
             }
 

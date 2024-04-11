@@ -9,7 +9,8 @@ export default {
       width: {
         "news-header": '69%',
         "popup": "400px",
-        "congrats-popup": "320px"
+        "congrats-popup": "310px",
+        "newsId-image": '700px'
       },
       height: {
 
@@ -42,7 +43,8 @@ export default {
       },
       maxWidth: {
         "news-card": '70%',
-        "news-card-text": '65%'
+        "news-card-text": '65%',
+        "prepage-contact": "300px"
 
       },
       minHeight: {
