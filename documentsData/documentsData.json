@@ -2,57 +2,57 @@
     {
         "id": 0,
         "title":"Результати підсумкових контрольних та діагностувальних робіт",
-        "pdf":"../documentsPdfs/Pidsumky-kontrolnyh-robit-za-Isemestr-2023-2024n.r.-oryginal.pdf"
+        "pdf":"/documentsPdfs/Pidsumky-kontrolnyh-robit-za-Isemestr-2023-2024n.r.-oryginal.pdf"
     },
     {
         "id": 1,
         "title":"Про організацію дій працівників у разі тривоги",
-        "pdf":"../documentsPdfs/NAKAZ-Povitryana-tryvoga.pdf"
+        "pdf":"/documentsPdfs/NAKAZ-Povitryana-tryvoga.pdf"
     },
     {
         "id": 2,
         "title":"Про затвердження Положення про службу охорони праці",
-        "pdf":"../documentsPdfs/Pro-zatver.Polozhennya-z-OP.pdf"
+        "pdf":"/documentsPdfs/Pro-zatver.Polozhennya-z-OP.pdf"
     },
     {
         "id": 3,
         "title":"Про створення комісії з питань охорони праці",
-        "pdf":"../documentsPdfs/NAKAZ-AUDYT-serpen-2023.pdf"
+        "pdf":"/documentsPdfs/NAKAZ-AUDYT-serpen-2023.pdf"
     },
     {
         "id": 4,
         "title":"Про результати моніторингу оцінки якості освітніх та управлінських процесів",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 5,
         "title":"Про підсумки самооцінювання за напрямом 4 «Управлінські процеси»",
-        "pdf":"../documentsPdfs/Nakaz-Pro-pidsumky-provedennya-samootsinyuvannya-yakosti-osvitnoyi-diyalnosti-za-napryamom-4-Upravlinski-protsesy.pdf"
+        "pdf":"/documentsPdfs/Nakaz-Pro-pidsumky-provedennya-samootsinyuvannya-yakosti-osvitnoyi-diyalnosti-za-napryamom-4-Upravlinski-protsesy.pdf"
     },
     {
         "id": 6,
         "title":"Про затвердження рішення педагогічної ради від 24.01.2024",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 7,
         "title":"Про затвердження орієнтовного плану ПК педагогічних працівників на 2024 рік",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 8,
         "title":"Про створення робочої групи та проведення щорічного самооцінювання якості освіти у 2023-2024 н.р.",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 9,
         "title":"Освітні навчальні програми на 2023-2024 н.р",
-        "pdf":"../documentsPdfs/Pro-stvorennya-robochoyi-grupy-2023-2024-Samootsinyuvannya.pdf"
+        "pdf":"/documentsPdfs/Pro-stvorennya-robochoyi-grupy-2023-2024-Samootsinyuvannya.pdf"
     },
     {
         "id": 10,
         "title":"Освітня програма 2023-2024 1-2 класи",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 11,
@@ -62,7 +62,7 @@
     {
         "id": 12,
         "title":"Освітня програма 2023-2024 5-6 класи",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 13,
@@ -72,57 +72,57 @@
     {
         "id": 14,
         "title":"Освітня програма 2023-2024 10-11 класи",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 15,
         "title":"Пояснювальна записка до освітньої програми для 1-11 класів на 2023-2024 н.р.",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
   
     {
         "id": 16,
         "title":"Про зарахування здобувачів освіти до 1 класу на 2023-2024 н.р.",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 17,
         "title":"Про організацію методичної роботи у 2023-2024 н.р.",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 18,
         "title":"Про затвердження Положення про атестацію педагогічних працівників",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 19,
         "title":"Про результати моніторингу якості знань здобувачів освіти за 2022-2023 н.р.",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },  {
         "id": 20,
         "title":"Про результати проведення підсумкових контрольних та діагностувальних робіт",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 21,
         "title":"Наказ про зарахування до 1 класу на 2023-2024 навчальний рік",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 22,
         "title":"Про підсумки проведення самооцінювання якості освітньої діяльності",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 23,
         "title":"Про чисельність контингенту учнів 1-11 класів",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 24,
         "title":"Про результати проведення підсумкових робіт з базових дисциплін",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },  {
         "id": 25,
         "title":"Про проведення підсумкових контрольних та діагностувальних робіт",
@@ -131,17 +131,17 @@
     {
         "id": 26,
         "title":"Про результати моніторингу якості знань здобувачів освіти",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 27,
         "title":"Структура 2022-2023 навчального року",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 28,
         "title":"Освітні навчальні програми Шклівського ЗЗСО І-ІІІ ступенів ім. М. Корчака на 2022-2023 н.р.",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 29,
@@ -151,21 +151,21 @@
     {
         "id": 30,
         "title":"Паспорт закладу 2022",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 31,
         "title":"Про затвердження Плану спільних заходів адміністрації та атестаційної комісії І рівня",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 32,
         "title":"Про створення атестаційної комісії І рівня та затвердження її складу",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     },
     {
         "id": 33,
         "title":"Про затвердження правил внутрішкільного розпорядку та режиму роботи на 2022-2023 н.р.",
-        "pdf":"../documentsPdfs/"
+        "pdf":"/documentsPdfs/"
     }
 ]
