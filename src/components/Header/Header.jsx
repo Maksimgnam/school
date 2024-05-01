@@ -17,18 +17,24 @@ const Header = () => {
                 <div className='min  h-full flex items-center '>
 
                     <div className='w-auto  min-w-links h-11 rounded-3xl flex  items-center justify-between  a-header '>
-                        <Link>
-                            <p className='text-xl text-black font-mono a-link'>Про нас</p>
-                        </Link>
-                        <Link>
+                        {/* <Link>
+                            <p className='text-xl text-black font-mono a-link'>Новини</p>
+                        </Link> */}
+                          <a href='#news'>
+                            <p className='text-xl text-black font-mono a-link'>Новини</p>
+                        </a>
+                        <a href="#contacts" >
+                            <p className='text-xl text-black font-mono a-link'>Контакти</p>
+                        </a>
+                      
+                       
+                        <a href='#timetable'>
+                            <p className='text-xl text-black font-mono a-link'>Графік/Розклад</p>
+                        </a>
+
+                        <a href='#documents'>
                             <p className='text-xl text-black font-mono a-link'>Документи</p>
-                        </Link>
-                        <Link>
-                            <p className='text-xl text-black font-mono a-link'>Інформація</p>
-                        </Link>
-                        <Link>
-                            <p className='text-xl text-black font-mono a-link'>Навч-вих роботи</p>
-                        </Link>
+                        </a>
                         <a className='w-20'>
                             <Link to='/navigation'>
                                 <p className='text-xl text-button font-mono a-link '>Більше</p>

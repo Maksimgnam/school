@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import news from '../../../newsData/newsData.json';
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const News = () => {
     const [currentPage, setCurrentPage] = useState(1);
@@ -22,7 +22,7 @@ const News = () => {
     }
 
     return (
-        <div className='w-full h-auto min-h-news bg-white flex flex-col  items-center p-5'>
+        <div id='news' className='w-full h-auto min-h-news bg-white flex flex-col  items-center p-5'>
             <div className='w-news-header h-12 flex items-center justify-between '>
                 <p className='text-3xl font-mono '>НОВИНИ</p>
                 <Stack spacing={2} className="w-auto h-9    rounded-md flex items-center justify-center ">
@@ -39,15 +39,15 @@ const News = () => {
                 {
                     sortedNews.map((item) => (
 
-                        <Link className='w-full flex flex-col  items-center ' key={item.id} to={`/news/${item.id}`}>
+                        <Link className='w-full flex   items-center flex-col ' key={item.id} to={`/news/${item.id}`}>
 
 
 
-                            <div key={item.id} className='w-auto min-w-news-card   max-w-news-card h-auto min-h-72 bg-gray-100 rounded-lg flex flex-wrap justify-around  items-center m-4 ml-0 mr-0 p-1 '>
+                            <div key={item.id} className='  min-w-news-card    max-w-news-card h-auto min-h-72   shadow-md rounded-lg flex flex-wrap   items-center m-4 ml-0 mr-0 p-3 '>
 
-                                <div style={{ backgroundImage: `url(${item.image})` }} className='w-80 h-64  news-card-image  bg-cover '></div>
+                                <div style={{ backgroundImage: `url(${item.image})` }} className='w-80 h-64  news-card-image  bg-cover rounded '></div>
                                 <div className='w-auto min-h-64 h-auto max-w-news-card-text  flex flex-col  justify-between '>
-                                    <div className=' '>
+                                    <div  className='sm:pl-4 pl-0'>
 
 
                                         <p className='text-black'>{item.catagory}</p>

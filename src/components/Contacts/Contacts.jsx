@@ -6,7 +6,7 @@ import instagram from '../Images/insta.png'
 
 const Contacts = () => {
     return (
-        <div className='w-full h-auto min-h-contacts bg-white flex flex-col  items-center '>
+        <div id='contacts' className='w-full h-auto min-h-contacts bg-white flex flex-col  items-center '>
             <h2 className='text-2xl text-black  font-mono'>КОНТАКТИ</h2>
             <div className='w-auto h-auto  min-h-contacts  flex flex-wrap justify-center   m-2 p-4'>
                 <div className='w-auto h-auto   flex flex-col    m-7 mt-0'>

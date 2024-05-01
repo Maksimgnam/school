@@ -8,6 +8,8 @@ import Timetable from '../Timetable/Timetable';
 import News from '../News/News';
 import Contacts from '../Contacts/Contacts';
 import Footer from '../Footer/Footer';
+import Duty from '../Duty/Duty';
+import Documents from '../Documents/Documents';
 
 
 const Homepage = () => {
@@ -34,6 +36,8 @@ const Homepage = () => {
             <News />
             <Contacts />
             <Timetable />
+            {/* <Duty/> */}
+            <Documents/>
             <Footer />
 
         </div >

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import Logo from '../Logo/Logo'
 
 const NavigationPage = () => {
 
@@ -43,15 +44,6 @@ const NavigationPage = () => {
 
 
     ]
-
-    // const filterLinks = (linkArray) => {
-    //     return linkArray.map(item => ({
-    //         ...item,
-    //         links: item.link.filter(link => link.toLowerCase().includes(searchLink.toLowerCase()))
-
-    //     })).filter(item => item.links.length > 0)
-
-    // }
     const filterLinks = (linksArray) => {
         return linksArray.map(item => ({
             ...item,
@@ -64,11 +56,11 @@ const NavigationPage = () => {
     return (
         <div className='w-full h-auto min-h-100vh bg-black flex flex-col items-center  '>
             <div className='w-11/12 h-16 flex items-center justify-between p-2 pt-0 pb-0 navigation-header '>
-                <div className='w-11 h-11 bg-zinc-800 rounded-md flex items-center justify-center'>
-                    <p className='text-3xl text-white font-mono'>Ш</p>
+                <div className='w-auto h-11 rounded-md flex items-center justify-center'>
+                    <p className='text-2xl text-white font-medium' >Навігація</p>
                 </div>
                 <input value={searchLink}
-                    onChange={(e) => setSearchLInk(e.target.value)} placeholder='Пошук...' type="text" className='w-64 h-11 text-white placeholder:font-mono placeholder:text-lg rounded-md bg-zinc-900 outline-none  pl-2.5 ' />
+                    onChange={(e) => setSearchLInk(e.target.value)} placeholder='Пошук...' type="text" className='w-64 h-10 text-white placeholder:font-mono placeholder:text-lg rounded-md bg-zinc-900 outline-none  pl-2.5 ' />
                 <Link to='/home'>
                     <button className='w-10 h-10 bg-zinc-800 hover:bg-zinc-900 rounded-full '>
                         <p className='text-lg text-white font-medium'>X</p>
@@ -77,25 +69,6 @@ const NavigationPage = () => {
 
             </div>
             <div className='w-11/12 h-auto min-h-90vh   flex flex-wrap justify-between  '>
-
-
-
-
-                {/* 
-                {
-                    navigationLinks.map((item, index) => (
-                        <div key={index} className='w-auto h-auto flex  flex-col m-5'>
-                            <p className='text-2xl text-white font-mono'>{item.name}</p>
-                            <div>
-                                {item.links.map((item) => (
-                                    <p className='text-md text-white m-1 '>{item}</p>
-                                ))}
-                            </div>
-                        </div>
-
-                    ))
-                } */}
-
                 {
                     [...filterLinks(navigationLinks)].map((item, index) => (
                         <div key={index} className='w-auto h-auto flex  flex-col m-5'>

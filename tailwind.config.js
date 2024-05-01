@@ -10,7 +10,8 @@ export default {
         "news-header": '69%',
         "popup": "400px",
         "congrats-popup": "310px",
-        "newsId-image": '700px'
+        "newsId-image": '700px',
+        "news-card": '70%',
       },
       height: {
 

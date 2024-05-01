@@ -46,8 +46,8 @@ const Timetable = () => {
 
 
 
-        <div id='#timetable' className='w-full h-auto bg-white flex  flex-col items-center pt-2  ' >
-
+        <div id='timetable' className='w-full h-auto bg-white flex  flex-col items-center pt-2  ' >
+    <h2 className='text-2xl text-black  font-mono'>Графік/Розклад</h2>
             <div className='w-6/12 h-20  flex items-center justify-around'>
                 <button onClick={() => setSelectedTable('lessonsTime')} className='w-28 h-11  bg-white  rounded-md flex items-center justify-around '>
                     <img className='w-6 h-6' src={bell} alt="" />
