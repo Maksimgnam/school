@@ -10,6 +10,7 @@ import Contacts from '../Contacts/Contacts';
 import Footer from '../Footer/Footer';
 import Duty from '../Duty/Duty';
 import Documents from '../Documents/Documents';
+import SearchPage from '../SearchPage/SearchPage';
 
 
 const Homepage = () => {
@@ -18,6 +19,10 @@ const Homepage = () => {
     }, [])
 
     return (
+        
+        <>
+          
+        
         <div className='w-full h-full bg-image' >
             <Header />
             <div className='w-full h-90vh  flex justify-center '>
@@ -33,7 +38,11 @@ const Homepage = () => {
 
                 </div>
             </div>
+       
+   
+        
             <News />
+        
             <Contacts />
             <Timetable />
             {/* <Duty/> */}
@@ -41,6 +50,8 @@ const Homepage = () => {
             <Footer />
 
         </div >
+        
+        </>
     )
 }
 

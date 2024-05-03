@@ -8,6 +8,7 @@ import Popup from './components/Popup/Popup';
 import NewsId from './components/NewsId/NewsId';
 import News from './components/News/News';
 import DocId from './components/DocId/DocId';
+import SearchPage from './components/SearchPage/SearchPage';
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
 
         <Routes>
           <Route path='/' element={<PrePage />} />
-          <Route path='/home' element={<Homepage />} />
+          <Route exact path='/home' element={<Homepage />} />
+          <Route path='/search' element={<SearchPage/>}/>
           <Route path='/navigation' element={<NavigationPage />} />
           <Route path={`/news/:id`} element={<NewsId />} />
           <Route path={`/documents/:id`} element={<DocId />} />

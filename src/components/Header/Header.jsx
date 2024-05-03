@@ -45,7 +45,11 @@ const Header = () => {
                     </div>
 
                 </div>
+                <Link to="/search">
+
+
                 <input type="text" placeholder='Пошук...' className='w-auto h-10 bg-white border-2  border-gray-200 rounded-md outline-none pl-2 header-input' />
+                </Link>
                 {/* <div className='w-1/5 h-11 flex items-center justify-end pr-10 icons  '>
                     <div className='w-10 h-10 flex items-center justify-center '>
                         <img className='w-6 h-6' src={instagram} alt="" />

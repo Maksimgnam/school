@@ -25,6 +25,10 @@ body {
 
 }
 
+::-webkit-scrollbar {
+  width: 3px;
+}
+
 .bg-image {
   background-image: url('/shkola.jpg');
   background-size: cover;

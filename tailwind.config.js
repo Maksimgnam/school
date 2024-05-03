@@ -20,7 +20,8 @@ export default {
         'line': '3px',
         '94': '94%',
         '1px': '3px',
-        "popup": "76%"
+        "popup": "76%",
+        "search-list":"88%"
 
 
       },
@@ -31,7 +32,8 @@ export default {
       backgroundColor: {
         'header': '#e0cd56',
         'prepage': '#e0cd56',
-        'button': '#e0cd56'
+        'button': '#e0cd56',
+        "dark":"rgba(0, 0 ,0 , 0.7)"
       },
       textColor: {
         'button': '#e0cd56'
