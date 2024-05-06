@@ -22,7 +22,7 @@
     {
         "id": 4,
         "title":"Про результати моніторингу оцінки якості освітніх та управлінських процесів",
-        "pdf":"/documentsPdfs/"
+        "pdf":"/documentsPdfs/ВІДДІЛ-ОСВІТИ-НОВОЯВОРІВСЬКОЇ-МІСЬКОЇ-РАДИ.pdf"
     },
     {
         "id": 5,
@@ -32,17 +32,17 @@
     {
         "id": 6,
         "title":"Про затвердження рішення педагогічної ради від 24.01.2024",
-        "pdf":"/documentsPdfs/"
+        "pdf":"/documentsPdfs/ВІДДІЛ-ОСВІТИ-НОВОЯВОРІВСЬКОЇ-МІСЬКОЇ-РАДИ-2.pdf"
     },
     {
         "id": 7,
         "title":"Про затвердження орієнтовного плану ПК педагогічних працівників на 2024 рік",
-        "pdf":"/documentsPdfs/"
+        "pdf":"/documentsPdfs/ОСВІТА-НОВОЯВОРІВСЬКОЇ-МІСЬКОЇ-РАДИ.pdf"
     },
     {
         "id": 8,
         "title":"Про створення робочої групи та проведення щорічного самооцінювання якості освіти у 2023-2024 н.р.",
-        "pdf":"/documentsPdfs/"
+        "pdf":"/documentsPdfs/Pro-stvorennya-robochoyi-grupy-2023-2024-Samootsinyuvannya(2).pdf"
     },
     {
         "id": 9,
@@ -52,120 +52,52 @@
     {
         "id": 10,
         "title":"Освітня програма 2023-2024 1-2 класи",
-        "pdf":"/documentsPdfs/"
+        "pdf":"/documentsPdfs/Osvitnya-programa-dlya-1-2-klasiv-na-2023-2024-n.r.pdf"
     },
     {
         "id": 11,
         "title":"Освітня програма 2023-2024 3-4 класи",
-        "pdf":"../documentsPdfs/"
+        "pdf":"../documentsPdfs/Osvitnya-programa-dlya-3-4-klasiv-na-2023-2024-n.r.pdf"
     },
     {
         "id": 12,
         "title":"Освітня програма 2023-2024 5-6 класи",
-        "pdf":"/documentsPdfs/"
+        "pdf":"/documentsPdfs/OCVITNYA-PROGRAM-2023-2024-5-6kl.pdf"
     },
     {
         "id": 13,
         "title":"Освітня програма 2023-2024 7-9 класи",
-        "pdf":"../documentsPdfs/"
+        "pdf":"../documentsPdfs/OSVITNYA-PROGRAMA-2023-2024-7-9-klasy.pdf"
     },
     {
         "id": 14,
         "title":"Освітня програма 2023-2024 10-11 класи",
-        "pdf":"/documentsPdfs/"
+        "pdf":"/documentsPdfs/OSVITNYA-PROGRAMA-2023-2024-10-11-kl.pdf"
     },
     {
         "id": 15,
-        "title":"Пояснювальна записка до освітньої програми для 1-11 класів на 2023-2024 н.р.",
-        "pdf":"/documentsPdfs/"
+        "title":"Про створення творчої групи педагогічних працівників 5-6 класів НУШ",
+        "pdf":"/documentsPdfs/NAKAZ-Pro-stvorennya-tvorchoyi-grupy-pedagogichnyh-pratsivnykiv-5-6-klasiv-NUSH.pdf"
     },
-  
     {
         "id": 16,
-        "title":"Про зарахування здобувачів освіти до 1 класу на 2023-2024 н.р.",
-        "pdf":"/documentsPdfs/"
+        "title":"Паспорт закладу 2023",
+        "pdf":"/documentsPdfs/Pasport-zakladu-2023.pdf"
     },
     {
         "id": 17,
-        "title":"Про організацію методичної роботи у 2023-2024 н.р.",
-        "pdf":"/documentsPdfs/"
+        "title":"Про зарахування здобувачів освіти до 1 класу на 2023-2024 н.р.",
+        "pdf":"/documentsPdfs/Pro-zarahuvannya-zdobuvachiv-osvity-do-1-klasu-na-2023-2024-n.r.-29.08.2023.pdf"
     },
     {
         "id": 18,
-        "title":"Про затвердження Положення про атестацію педагогічних працівників",
-        "pdf":"/documentsPdfs/"
+        "title":"Про організацію методичної роботи у 2023-2024 н.р.",
+        "pdf":"/documentsPdfs/NAKAZ-Pro-organizatsiyu-metodychnoyi-roboty-u-2023-2024-n.r.pdf"
     },
     {
         "id": 19,
         "title":"Про результати моніторингу якості знань здобувачів освіти за 2022-2023 н.р.",
-        "pdf":"/documentsPdfs/"
-    },  {
-        "id": 20,
-        "title":"Про результати проведення підсумкових контрольних та діагностувальних робіт",
-        "pdf":"/documentsPdfs/"
-    },
-    {
-        "id": 21,
-        "title":"Наказ про зарахування до 1 класу на 2023-2024 навчальний рік",
-        "pdf":"/documentsPdfs/"
-    },
-    {
-        "id": 22,
-        "title":"Про підсумки проведення самооцінювання якості освітньої діяльності",
-        "pdf":"/documentsPdfs/"
-    },
-    {
-        "id": 23,
-        "title":"Про чисельність контингенту учнів 1-11 класів",
-        "pdf":"/documentsPdfs/"
-    },
-    {
-        "id": 24,
-        "title":"Про результати проведення підсумкових робіт з базових дисциплін",
-        "pdf":"/documentsPdfs/"
-    },  {
-        "id": 25,
-        "title":"Про проведення підсумкових контрольних та діагностувальних робіт",
-        "pdf":"../documentsPdfs/"
-    },
-    {
-        "id": 26,
-        "title":"Про результати моніторингу якості знань здобувачів освіти",
-        "pdf":"/documentsPdfs/"
-    },
-    {
-        "id": 27,
-        "title":"Структура 2022-2023 навчального року",
-        "pdf":"/documentsPdfs/"
-    },
-    {
-        "id": 28,
-        "title":"Освітні навчальні програми Шклівського ЗЗСО І-ІІІ ступенів ім. М. Корчака на 2022-2023 н.р.",
-        "pdf":"/documentsPdfs/"
-    },
-    {
-        "id": 29,
-        "title":"Про внесення змін у структуру 2022-2023 н.р.",
-        "pdf":"../documentsPdfs/"
-    },
-    {
-        "id": 30,
-        "title":"Паспорт закладу 2022",
-        "pdf":"/documentsPdfs/"
-    },
-    {
-        "id": 31,
-        "title":"Про затвердження Плану спільних заходів адміністрації та атестаційної комісії І рівня",
-        "pdf":"/documentsPdfs/"
-    },
-    {
-        "id": 32,
-        "title":"Про створення атестаційної комісії І рівня та затвердження її складу",
-        "pdf":"/documentsPdfs/"
-    },
-    {
-        "id": 33,
-        "title":"Про затвердження правил внутрішкільного розпорядку та режиму роботи на 2022-2023 н.р.",
-        "pdf":"/documentsPdfs/"
+        "pdf":"/documentsPdfs/Pro-rezultaty-monitoryngu-yakosti-znan-zdobuvachiv-osvity-za-2022-2023-n.r.pdf"
     }
+
 ]

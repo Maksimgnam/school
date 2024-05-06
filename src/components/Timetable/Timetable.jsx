@@ -70,7 +70,7 @@ const Timetable = () => {
                     <p className='text-lg font-mono pr-1 time-text'>Психолог</p>
                 </button>
             </div>
-            <div className='w-full h-auto  bg-white flex items-center justify-center  '>
+            <div data-aos="fade-up" className='w-full h-auto   bg-white flex items-center justify-center  '>
                 {renderTable()}
             </div>
         </div >

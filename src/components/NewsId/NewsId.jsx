@@ -81,8 +81,13 @@ const NewsId = () => {
                         <p>{news.catagory}</p>
                         <h2 className='text-3xl'>{news.title}</h2>
                         <p className='text-lg pt-2'>{news.allDescription}</p>
+                      
+                       
                     </div>
                 </div>
+                { 
+                            news.pdf &&    <iframe src={news.pdf} frameborder="0" className='w-full h-news-pdf pt-2'></iframe>
+                        }
             </div>
         </div>
     );

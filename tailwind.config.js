@@ -21,7 +21,8 @@ export default {
         '94': '94%',
         '1px': '3px',
         "popup": "76%",
-        "search-list":"88%"
+        "search-list":"88%",
+        'news-pdf':"100vh"
 
 
       },

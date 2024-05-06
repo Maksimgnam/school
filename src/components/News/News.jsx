@@ -1,5 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import news from '../../../newsData/newsData.json';
@@ -20,6 +23,11 @@ const News = () => {
     const pageChange = (_event, value) => {
         setCurrentPage(value);
     }
+
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 })
+    }, [])
 
     return (
         <div id='news' className='w-full h-auto min-h-news bg-white flex flex-col  items-center p-5'>
@@ -43,7 +51,7 @@ const News = () => {
 
 
 
-                            <div key={item.id} className='  min-w-news-card    max-w-news-card h-auto min-h-72   shadow-md rounded-lg flex flex-wrap   items-center m-4 ml-0 mr-0 p-3 '>
+                            <div key={item.id} data-aos="fade-up" className='  min-w-news-card    max-w-news-card h-auto min-h-72   shadow-md rounded-lg flex flex-wrap   items-center m-4 ml-0 mr-0 p-3 '>
 
                                 <div style={{ backgroundImage: `url(${item.image})` }} className='w-80 h-64  news-card-image  bg-cover rounded '></div>
                                 <div className='w-auto min-h-64 h-auto max-w-news-card-text  flex flex-col  justify-between '>

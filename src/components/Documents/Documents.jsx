@@ -32,7 +32,7 @@ const Documents = () => {
         <div className='w-full h-auto flex flex-wrap justify-center pt-2 '>
     {
         sortedDocs.map((item, index)=>(
-        <div key={item.id} className='w-80 h-auto min-h-60  rounded-md border-2 hover:shadow-lg  flex flex-col items-center justify-between m-3 p-3 pt-3'>
+        <div key={item.id} data-aos="fade-up" className='w-80 h-auto min-h-60  rounded-md border-2 hover:shadow-lg  flex flex-col items-center justify-between m-3 p-3 pt-3'>
          
 
          <div  className='w-full h-10 flex justify-between '>

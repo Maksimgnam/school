@@ -1,15 +1,22 @@
 import React from 'react';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import phone from '../Images/call.png';
 import email from '../Images/email.png';
 import facebook from '../Images/facebook.png';
 import instagram from '../Images/insta.png'
 
 const Contacts = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 })
+    }, [])
     return (
         <div id='contacts' className='w-full h-auto min-h-contacts bg-white flex flex-col  items-center '>
             <h2 className='text-2xl text-black  font-mono'>КОНТАКТИ</h2>
             <div className='w-auto h-auto  min-h-contacts  flex flex-wrap justify-center   m-2 p-4'>
-                <div className='w-auto h-auto   flex flex-col    m-7 mt-0'>
+                <div data-aos="fade-right" className='w-auto h-auto   flex flex-col    m-7 mt-0'>
                     <h2 className='text-2xl text-black  font-medium'>
                         Шклівський ЗЗСО І-ІІІ ступенів ім. Мар'яна Корчака
                     </h2>
@@ -70,7 +77,7 @@ const Contacts = () => {
 
 
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2566.8968018276873!2d23.5427556758687!3d49.95703832276865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473b3dbb45fa7973%3A0xe4ca5c0e575e91b7!2z0KHQl9Ce0Kgg0YHQvNGCLtCo0LrQu9C-!5e0!3m2!1suk!2sua!4v1712165119547!5m2!1suk!2sua" width="370" height="340"></iframe>
+                <iframe data-aos="fade-left" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2566.8968018276873!2d23.5427556758687!3d49.95703832276865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473b3dbb45fa7973%3A0xe4ca5c0e575e91b7!2z0KHQl9Ce0Kgg0YHQvNGCLtCo0LrQu9C-!5e0!3m2!1suk!2sua!4v1712165119547!5m2!1suk!2sua" width="370" height="340"></iframe>
             </div>
 
         </div >
