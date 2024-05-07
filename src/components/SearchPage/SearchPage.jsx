@@ -17,13 +17,13 @@ const SearchPage = () => {
 
 
   return (
-    <div className="w-full h-full  bg-dark flex flex-col  items-center overflow-y-hidden absolute top-0">
-        <div className='w-full h-12 flex items-center justify-end pr-10 '>
+    <div className="w-full h-full  bg-dark flex flex-col  items-center overflow-y-hidden absolute top-0 p-3" >
+        <div className='w-full h-12 flex items-center justify-end sm:pr-10 pr-3 pb-5 '>
             <Link to={`/home`}>
             <p className='text-4xl text-white font-mono'>x</p>
             </Link>
         </div>
-        <div className=' w-full sm:w-7/12 h-5/6 bg-white rounded-2xl '>
+        <div className=' w-full sm:w-8/12 lg:w-8/12  h-5/6 bg-white rounded-2xl   '>
             <div className='w-full h-16  flex items-center justify-between p-5 '>
                 <input type="text" value={searchTitle} onChange={(e)=> setSearchTitle(e.target.value)} className='w-8/12 h-11 bg-white text-lg  rounded-md border-2 outline-none pl-3' placeholder='Пошук...' />
                 <div className='flex items-center'>
@@ -47,7 +47,7 @@ const SearchPage = () => {
                             <div className='w-9 h-9 bg-sky-200 rounded flex items-center justify-center'>
                                 <img className='w-5 h-5' src="/Images/news.png" alt="" />
                             </div>
-                            <p className='text-lg font-medium pl-2'>  {item.title}</p>
+                            <p className='text-sm sm:text-lg lg:text-md font-medium pl-2'>  {item.title}</p>
                           
                         </div>
                         </Link>
@@ -62,7 +62,7 @@ const SearchPage = () => {
                                 <div className='w-9 h-9 bg-green-200 rounded flex items-center justify-center'>
                                     <img className='w-5 h-5' src="/Images/doc.png" alt="" />
                                 </div>
-                                <p className='text-lg font-medium pl-2'>  {item.title}</p>
+                                <p className='text-sm sm:text-lg lg:text-md font-medium pl-2'>  {item.title}</p>
                               
                             </div>
                             </Link>
