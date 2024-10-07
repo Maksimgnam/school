@@ -23,7 +23,7 @@ const Documents = () => {
         setCurrentPage(value);
     }
   return (
-    <div  id='documents'  className='w-full h-auto flex flex-col items-center p-5 '>
+    <div  id='documents'  className='w-full h-auto bg-white flex flex-col items-center p-5 '>
         <div className='w-auto h-auto flex'>
         <h2 className='text-2xl text-black  font-mono'>Документи</h2>
         
