@@ -9,6 +9,7 @@ import News from '../News/News';
 import Contacts from '../Contacts/Contacts';
 import Footer from '../Footer/Footer';
 import Documents from '../Documents/Documents';
+import Cnnline from '../Cnnline/Cnnline';
 
 
 
@@ -22,9 +23,10 @@ const Homepage = () => {
         <>
           
         
-        <div className='w-full h-full bg-image' >
+        <div className='w-full h-svh bg-image' >
+            <Cnnline/>
             <Header />
-            <div className='w-full h-90vh  flex justify-center '>
+            <div className='w-full h-88vh  flex justify-center '>
                 <div className='w-11/12 h-full flex items-center '>
                     <div className='w-full h-auto min-h-72 flex flex-col items-center justify-between'>
                         <h3 data-aos="fade-up" className='text-white text-7xl font-medium homepage-text'>Шклівський ЗЗСО І-ІІІ ступенів </h3>

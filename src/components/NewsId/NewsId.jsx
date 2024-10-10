@@ -63,7 +63,7 @@ const NewsId = () => {
     };
 
     return (
-        <div className='w-full h-full bg-white flex flex-col items-center'>
+        <div className='w-full h-auto bg-white flex flex-col items-center'>
             <div className='w-full h-12 p-2'>
                 <Link to='/home'>
                     <button className='w-9 h-9 bg-black rounded-lg'>
@@ -71,7 +71,7 @@ const NewsId = () => {
                     </button>
                 </Link>
             </div>
-            <div className='w-auto h-auto min-w-news-card max-w-news-card flex flex-col p-3'>
+            <div className='w-auto h-auto min-w-news-card  max-w-news-card flex flex-col p-3'>
                 <div
                     className='w-newsId-image h-96 rounded bg-cover'
                     style={{ backgroundImage: `url(${getImageSource()})` }}

@@ -14,8 +14,8 @@ export default {
         "news-card": '70%',
       },
       height: {
-
-        '90vh': '90vh',
+        'cnnline':"5vh",
+        '88vh': '88vh',
         '10vh': '10vh',
         'line': '3px',
         '94': '94%',
@@ -61,7 +61,16 @@ export default {
         '100vh': '100vh',
         '120vh': '120vh',
         '292vh': '292vh'
-      }
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        scroll: 'scroll 20s linear infinite',
+      },
 
 
 
