@@ -60,7 +60,8 @@ export default {
         '62vh': '62vh',
         '100vh': '100vh',
         '120vh': '120vh',
-        '292vh': '292vh'
+        '292vh': '292vh',
+        "image": '440px',
       },
       keyframes: {
         scroll: {
